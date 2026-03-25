@@ -1,2 +1,2 @@
 # Dog-Training
-Fictitious dog training site with information about fictitious company and a working form that enables you to request information
+I love dogs and wanted to build a fictitious site for dog training services. I included a form at the bottom for requesting information. It takes the information that is inputted, runs validations on it and if the information is good it composes a confirmation message at the bottom of page that includes the inputted information. 
