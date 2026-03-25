@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Paws Dog Training</title>
+  <link rel="icon" type="images/x-icon" href="https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/1024/22215-dog-icon.png" />
+  <link rel="stylesheet" href="style.css"></head>
+<body>
+
+<header>
+  <h1>Happy Paws Dog Training</h1>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#form">Request Info</a>
+</nav>
+
+<div class="container" id="about">
+  <img class="image" src="https://www.akc.org/wp-content/uploads/2020/09/French-Bulldog-puppy-playing-with-a-tennis-ball-in-the-yard.jpeg" alt="Frenchie" />
+  <h2>About Us</h2>
+  <p>
+    We specialize in positive reinforcement dog training techniques. Whether you
+    have a new puppy or an older dog needing behavior correction, our programs
+    are designed to help you and your dog succeed.
+  </p>
+</div>
+
+<div class="container" id="services">
+  <img class="image" src="https://images.ctfassets.net/sfnkq8lmu5d7/7eVUaySTtKah3N7peEVOOC/423e1983e40b7705f656bb29e488b1a1/The-Wildest_Editorial_Eight_Basic_Training_Cues_to_Teach_Your_Dog_Hero.jpg?w=1000&h=750&q=70&fm=webp" alt="Sitting Dog">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Puppy Training</h3>
+      <p>Basic commands, potty training, and socialization.</p>
+    </div>
+    <div class="card">
+      <h3>Obedience Training</h3>
+      <p>Sit, stay, recall, and leash training.</p>
+    </div>
+    <div class="card">
+      <h3>Behavior Correction</h3>
+      <p>Fix barking, aggression, and anxiety issues.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="form">
+  <img class="image" src="https://www.thesprucepets.com/thmb/IFzexW63kN6sJvuWQ6nMBfDQPJg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/his-toy-dont-touch_t20_EPeWOJ-5ad0cb6f43a1030037f6ae6d.jpg" alt="dog with tennis ball">
+  <h2>Request Information</h2>
+  <form id="infoForm">
+    <label>Name:</label>
+    <input type="text" id="name" required>
+    <label>Email:</label>
+    <input type="email" id="email" required>
+    <label>Training Needed:</label>
+    <select id="training">
+      <option>Puppy Training</option>
+      <option>Obedience Training</option>
+      <option>Behavior Correction</option>
+    </select>
+    <button type="submit">Submit</button>
+    <p class="success" id="successMsg"></p>
+  </form>
+</div>
+
+<footer>
+  <p>Contact us 555-555-5555</p>
+</footer>
+  
+<script src="script.js"></script>
+
+</body>
+</html>
