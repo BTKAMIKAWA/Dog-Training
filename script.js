@@ -5,12 +5,12 @@ document.getElementById("infoForm").addEventListener("submit", function(event) {
   const email = document.getElementById("email").value;
   const training = document.getElementById("training").value
     
-  function valid(email) {
-    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return pattern.test(email);
+  function validateEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
   }
   
-  valid(email) ? 
+  validateEmail(email) ? 
     document.getElementById("successMsg").textContent = "Thank you, " + name + "! We'll contact you soon at " + email + " with more information on our " + training 
     : document.getElementById("successMsg").textContent ="Please input a valid email";  
 
